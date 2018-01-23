@@ -1,0 +1,40 @@
+{
+  "name": "learngit",
+  "version": "1.0.0",
+  "description": "Git is a distributed version control system.\r Git is free software distributed under the GPL.\r Git has a mutable index called stage.\r Git tracks changes.\r Creating a new branch is quick.\r Creating a new branch is quick and simple.\r Creating a new branch is quick add merge",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengchuicaodong/learngit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fengchuicaodong/learngit/issues"
+  },
+  "homepage": "https://github.com/fengchuicaodong/learngit#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "file-loader": "^1.1.6",
+    "image-webpack-loader": "^3.4.2",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
